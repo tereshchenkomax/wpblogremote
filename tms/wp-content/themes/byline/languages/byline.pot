@@ -1,0 +1,431 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Byline\n"
+"POT-Creation-Date: 2016-09-23 13:55-0400\n"
+"PO-Revision-Date: 2016-09-23 13:54-0400\n"
+"Last-Translator: c.bavota <cbavota@gmail.com>\n"
+"Language-Team: c.bavota <cbavota@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:17
+msgid "It looks like nothing was found at this location. Perhaps try a search?"
+msgstr ""
+
+#: comments.php:28
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:45
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:46
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:47
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:57
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:22
+#, php-format
+msgid "Copyright &copy; %1$s %2$s. All Rights Reserved."
+msgstr ""
+
+#: footer.php:23
+#, php-format
+msgid "The %1$s Theme by %2$s."
+msgstr ""
+
+#: functions.php:74
+msgid "Default Header 1"
+msgstr ""
+
+#: functions.php:80
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:112
+msgctxt "Roboto font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:120
+msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
+msgid "no-subset"
+msgstr ""
+
+#: functions.php:147
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:149
+msgid "This section appears below the sidebar menu area."
+msgstr ""
+
+#: header.php:47
+msgid "Toggle sidebar"
+msgstr ""
+
+#: header.php:54
+msgid "Skip to content"
+msgstr ""
+
+#: inc/about.php:23
+#, php-format
+msgid "Welcome to %1$s %2$s"
+msgstr ""
+
+#: inc/about.php:23
+#, php-format
+msgid "%s Theme Info"
+msgstr ""
+
+#: inc/about.php:39
+#, php-format
+msgid ""
+"Enjoy the flexible design and efficient codebase that %1$s provides. Be sure "
+"to %2$scheck out the demo%3$s to see some of the possibilities."
+msgstr ""
+
+#: inc/about.php:48
+msgid "Enhance Your Website"
+msgstr ""
+
+#: inc/about.php:49
+#, php-format
+msgid ""
+"Upgrading %s with the ABC Premium Features plugin will unlock the following "
+"options to help you improve your site&rsquo;s look and functionality."
+msgstr ""
+
+#: inc/about.php:56
+msgid "Custom Colors"
+msgstr ""
+
+#: inc/about.php:58
+msgid ""
+"Why settle on one color when you can choose from any color imaginable. With "
+"the Custom Color plugin, you have the ability to set different colors for "
+"text elements, page backgrounds and more."
+msgstr ""
+
+#: inc/about.php:64
+msgid "Fonts Manager"
+msgstr ""
+
+#: inc/about.php:66
+msgid ""
+"A font can say a lot about a site, so why not test out a few to see which "
+"one might work better. With our Font Manager plugin, you can easily pick "
+"from over 600 Google Fonts or even set up Typekit."
+msgstr ""
+
+#: inc/about.php:72
+msgid "Custom Footer"
+msgstr ""
+
+#: inc/about.php:74
+msgid ""
+"Sometimes you need a little bit more space in your footer for widgets. With "
+"this plugin, you can add up to six columns above the footer and even "
+"customize the text in your footer notice."
+msgstr ""
+
+#: inc/about.php:80
+msgid "Social Icons"
+msgstr ""
+
+#: inc/about.php:82
+msgid ""
+"Being socially active online is a must for any business. That&rsquo;s why we "
+"created the ABC Social Icons premium plugin. Now you can direct any of your "
+"visitors to the social networks you use so they can stay up to date."
+msgstr ""
+
+#: inc/about.php:88
+#, php-format
+msgid ""
+"Want more? Take a look at alphabetthemes.com to see what options are "
+"available when you upgrade. %1$sUpgrade now &rarr;%2$s"
+msgstr ""
+
+#: inc/about.php:95
+msgid "View Documentation"
+msgstr ""
+
+#: inc/about.php:96
+#, php-format
+msgid ""
+"You can read detailed information on how to use %s&rsquo;s features in our "
+"online documentation section."
+msgstr ""
+
+#: inc/about.php:97
+msgid "View documentation &rarr;"
+msgstr ""
+
+#: inc/about.php:105
+msgid "Install Free Plugins"
+msgstr ""
+
+#: inc/about.php:106
+#, php-format
+msgid "Check out some available free plugins that work with %s."
+msgstr ""
+
+#: inc/about.php:109
+msgid "ABC Responsive Videos"
+msgstr ""
+
+#: inc/about.php:112
+msgid "Jetpack by WordPress.com"
+msgstr ""
+
+#: inc/about.php:118
+msgid "Need Support?"
+msgstr ""
+
+#: inc/about.php:119
+#, php-format
+msgid ""
+"If you&rsquo;ve purchased a license from Alphabet Themes, you can access our "
+"%1$ssupport form%2$s to ask any questions you might have about one of our "
+"themes or plugins."
+msgstr ""
+
+#: inc/about.php:121
+#, php-format
+msgid "Are you enjoying %s?"
+msgstr ""
+
+#: inc/about.php:122
+#, php-format
+msgid ""
+"Why not leave a review on %1$sWordPress.org%2$s? We&rsquo;d really "
+"appreciate it! %3$s"
+msgstr ""
+
+#: inc/customizer.php:12
+msgid "Written by"
+msgstr ""
+
+#: inc/customizer.php:13
+msgid "Continue reading"
+msgstr ""
+
+#: inc/customizer.php:23 inc/customizer.php:131
+msgid "Reset"
+msgstr ""
+
+#: inc/customizer.php:81
+msgid "Sidebar Color"
+msgstr ""
+
+#: inc/customizer.php:86
+msgid "Layout"
+msgstr ""
+
+#: inc/customizer.php:97
+msgid "Byline text"
+msgstr ""
+
+#: inc/customizer.php:110
+msgid "Read More text"
+msgstr ""
+
+#: inc/customizer.php:122
+msgid "Select Author"
+msgstr ""
+
+#: inc/customizer.php:125
+msgid "Add an author ID to display their avatar and info in the sidebar."
+msgstr ""
+
+#: inc/customizer.php:143
+msgid "Click on the button below to reset all theme options back to default."
+msgstr ""
+
+#: inc/customizer.php:152
+msgid "Unlock Premium Theme Options"
+msgstr ""
+
+#: inc/customizer.php:165
+msgid "Are you sure?"
+msgstr ""
+
+#: inc/template-tags.php:14
+msgid "Post navigation"
+msgstr ""
+
+#: inc/template-tags.php:38 inc/template-tags.php:69
+#, php-format
+msgid "%1$s ago - by %2$s"
+msgstr ""
+
+#: inc/template-tags.php:41
+msgid "Previous"
+msgstr ""
+
+#: inc/template-tags.php:72
+msgid "Next"
+msgstr ""
+
+#: inc/template-tags.php:98
+#, php-format
+msgid "%1$s search results for \"%2$s\""
+msgstr ""
+
+#: inc/template-tags.php:106
+#, php-format
+msgid "%s words"
+msgstr ""
+
+#: sidebar.php:33
+msgid "Main menu"
+msgstr ""
+
+#: sidebar.php:39
+msgid "Default Widget"
+msgstr ""
+
+#: sidebar.php:40
+#, php-format
+msgid ""
+"This is just a default widget. It&rsquo;ll disappear as soon as you add your "
+"own widgets on the %1$sWidgets admin page%2$s."
+msgstr ""
+
+#: sidebar.php:42
+msgid "Below is an example of an unordered list."
+msgstr ""
+
+#: sidebar.php:44
+msgid "List item one"
+msgstr ""
+
+#: sidebar.php:45
+msgid "List item two"
+msgstr ""
+
+#: sidebar.php:46
+msgid "List item three"
+msgstr ""
+
+#: sidebar.php:47
+msgid "List item four"
+msgstr ""
+
+#: template-parts/content-footer.php:12
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-footer.php:16
+msgid "Page"
+msgstr ""
+
+#: template-parts/content-footer.php:20
+msgid "Tags:"
+msgstr ""
+
+#: template-parts/content-header.php:35
+#, php-format
+msgid "By %s"
+msgstr ""
+
+#: template-parts/content-header.php:35 template-parts/content.php:19
+#, php-format
+msgid "Posts by %s"
+msgstr ""
+
+#: template-parts/content-header.php:45
+msgid "0 Comments"
+msgstr ""
+
+#: template-parts/content-header.php:45
+msgid "1 Comment"
+msgstr ""
+
+#: template-parts/content-header.php:45
+msgid "% Comments"
+msgstr ""
+
+#: template-parts/content-none.php:9
+msgid "Nothing found"
+msgstr ""
+
+#: template-parts/content-none.php:14
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:18
+msgid ""
+"Sorry, but no posts matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:23
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content.php:22
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: template-parts/content.php:28
+msgid "Edit"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Byline"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://alphabetthemes.com/downloads/byline-wordpress-theme/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Simplify your site with Byline, a theme specifically built for writers. "
+"Display your latest article in its entirety, including comments, right on "
+"your home page. Looks great on desktop browsers, tablets and handheld "
+"devices. For a live demo go to http://demos.alphabetthemes.com/?theme=byline."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Alphabet Themes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://alphabetthemes.com"
+msgstr ""

@@ -1,0 +1,202 @@
+/**
+ * Theme Name: Byline
+ * Description: Adds support for languages written in a Right To Left (RTL) direction.
+ *
+ * See http://codex.wordpress.org/Right_to_Left_Language_Support
+*/
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+.site-title {
+	float: right;
+}
+
+@media (min-width: 321px) {
+	.site-description {
+		float: right;
+		margin: 18px 10px 0 0;
+	}
+}
+
+#masthead .offcanvas-toggle {
+    right: auto;
+    left: 20px;
+}
+
+.site-meta {
+	float: right;
+}
+
+.content-thin {
+	float: right;
+	text-align: left;
+}
+
+.content-wide {
+	float: right;
+}
+
+.tags span {
+	margin-right: 0;
+	margin-left: 5px;
+}
+
+#posts-pagination a,
+table th,
+table td,
+.home-jumbotron .lead {
+	text-align: right;
+}
+
+#posts-pagination .next a,
+.format-quote cite {
+	text-align: left;
+}
+
+.comment .avatar,
+.gallery-item,
+.format-status .avatar,
+i.quote,
+.pullquote,
+#author-info img,
+#posts-pagination .previous,
+.navigation .nav-previous {
+	float: right !important;
+	text-align: left;
+}
+
+.navigation .nav-previous {
+	border: 0;
+	border-left: 1px solid #d6d6d6;
+	padding: 20px 0 20px 20px;
+}
+
+#cancel-comment-reply-link,
+.pullquote.alignright,
+#posts-pagination .next,
+.navigation .nav-next {
+	float: left !important;
+	text-align: right;
+}
+
+.navigation .nav-next {
+	padding: 20px 20px 20px 0;
+}
+
+.comment-author,
+.comment-meta,
+.comment-text,
+.format-quote .entry-content,
+#author-info .author-text,
+.commentlist .children > .comment {
+	padding-left: 0 !important;
+}
+
+	.format-quote .entry-content {
+		padding-right: 70px;
+	}
+
+	#author-info .author-text {
+		padding-right: 90px;
+	}
+
+	@media (min-width: 768px) {
+	    .bbp-user-page article header,
+	    .home.blog article header,
+	    .archive article header,
+	    .search article header {
+			margin-left:0;
+			padding-left: 0;
+			margin-right: 25%;
+			padding-right: 10px;
+		}
+	}
+
+	@media (min-width: 980px) {
+		.bbp-user-page article header,
+		.home.blog article header,
+		.archive article header,
+		.search article header {
+			margin-left: 0;
+			margin-right: 20%;
+		}
+	}
+
+/* =Sidebar
+-------------------------------------------------------------- */
+#page {
+	left: 0;
+	right: auto;
+}
+
+	.open-sidebar #page {
+		right: auto;
+		left: 320px;
+	}
+
+#sidebar {
+	right: auto;
+	left: -160px;
+}
+
+	.open-sidebar #sidebar {
+		right: auto;
+		left: 0;
+	}
+
+/* =Pullquotes
+-------------------------------------------------------------- */
+.pullquote {
+	margin: 1em 0 1em 1.625em;
+	text-align: left;
+}
+
+.pullquote.alignright {
+	margin: 1em 1.625em 1em 0;
+	text-align: right;
+}
+
+@media (max-width: 480px) {
+	.pullquote {
+		text-align: right;
+	}
+}
+
+/* =Comments
+-------------------------------------------------------------- */
+.comment-author,
+.comment-meta,
+.comment-text {
+	padding-right: 75px;
+}
+
+.commentlist .children .comment {
+	border-left: 0;
+	border-right: 1px solid #ddd;
+}
+
+.commentlist .children > .comment {
+	padding-right: 23px !important;
+}
+
+.commentlist .children .comment:before,
+.commentlist .children .comment:after {
+	left: auto;
+}
+
+	.commentlist .children .comment:before {
+		right: -6px;
+	}
+
+	.commentlist .children .comment:after {
+		right: -5px;
+	}
+
+/* =bbPress
+-------------------------------------------------------------- */
+.subscription-toggle {
+	float: left;
+}
